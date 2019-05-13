@@ -1,0 +1,29 @@
+{
+  "name": "mychat",
+  "version": "1.0.0",
+  "description": "Simple chat application using nodejs and socket.io with Apache kafka",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gotham25/MyChat.git"
+  },
+  "keywords": [
+    "chat",
+    "kafka",
+    "nodejs",
+    "socket.io"
+  ],
+  "author": "Gowtham Alaguraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gotham25/MyChat/issues"
+  },
+  "homepage": "https://github.com/Gotham25/MyChat#readme",
+  "dependencies": {
+    "kafkajs": "^1.7.0",
+    "socket.io": "^2.2.0"
+  }
+}
